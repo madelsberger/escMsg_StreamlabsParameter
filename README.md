@@ -1,4 +1,4 @@
-# excMsg_StreamlabsParameter
+# escMsg_StreamlabsParameter
 
 A message-sanitizing parameter for streamlabs chatbot
 
@@ -50,7 +50,7 @@ So instead you can use
 
     $if("$escMsg" == "test", "success", "failure")
 
-This will apply the default excape rule - which replaces " with \", among
+This will apply the default escape rule - which replaces " with \", among
 other tings - to the $msg value, so in the above example the expanded
 expression becomes
 
